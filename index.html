@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hora de codar 2</title>
+  </head>
+  <!-- 1. Escreva um programa em que o usuário informe dois números utilizando o
+  "prompt". Então escreva em tela o maior deles -->
+  <!-- 2. Faça um programa que leia um valor informado pelo usuário e diga se o valor
+  informado é positivo, negativo ou zero. -->
+  <!-- 3. Faça um programa para ler 3 valores (considere que não serão informados
+  valores iguais) e escrever o maior deles. -->
+  <!-- 4. Faça um programa que leia 3 valores informados pelo usuário (considere que -->
+  <!-- não serão informados valores iguais) e escrever a soma dos 2 maiores. -->
+  <!-- 5. Faça um programa que leia 6 valores informados pelo usuário, calcule, exiba
+  os números informados e escreva a média aritmética desses valores lidos. -->
+  <!-- 6. Faça um programa que receba quatro valores informados pelo usuário, mas
+  informe somente o primeiro, o último e o maior de todos eles (considere que
+  todos os números informados serão diferentes) -->
+
+  <body>
+    <script>
+      var numero1 = parseFloat(prompt("Digite um número"));
+      var numero2 = parseFloat(prompt("Digite o segundo número"));
+      //parseFloat, transforma os valores em números
+
+      if (numero1 > numero2) {
+      } else if (numero2 > numero1) {
+        alert("O maior número é: " + numero2);
+      } else {
+        alert("Os números são iguais: ");
+      }
+
+      var valor = parseFloat(prompt("Insira um valor:"));
+
+      if (valor > 0) {
+        alert("Esse valor é posivo.");
+      } else if (valor < 0) {
+        alert("Esse valor é negativo.");
+      } else {
+        alert("Esse valor é zero.");
+      }
+
+        var valor1 = parseFloat (prompt ("Digite o primeiro valor: "));
+        var valor2 = parseFloat (prompt ("Digite o segundo valor: "));
+        var valor3 = parseFloat (prompt ("Digite o terceiro valor: "));
+
+        if (valor1 > valor2 && valor1 > valor3) {
+          alert ("O maior valor é: " + valor1);
+        } else if (valor1 > valor3 && valor2 > valor3) {
+          alert ("O maior valor é: " + valor2)
+        } else {
+          alert ("O maior valor é: " + valor3)
+        }
+
+        var valor1 = parseFloat (prompt ("Digite o primeiro valor: "));
+        var valor2 = parseFloat (prompt ("Digite o segundo valor: "));
+        var valor3 = parseFloat (prompt ("Digite o terceiro valor: "));
+        var valor4 = parseFloat (prompt ("Digite o quarto valor: "));
+        var maior = valor1;
+
+        if (valor1 > valor2 && valor1 > valor4 && valor1 > valor4)
+
+        alert ("O primeiro valor é: " + valor1)
+        alert ("O ultimo valor é: " + valor4)
+        alert ("O maior valor é: " + maior);
+    </script>
+  </body>
+</html>
